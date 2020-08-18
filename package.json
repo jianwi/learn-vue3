@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "serve":  ""
+    "serve": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "@vue/runtime-core": "^3.0.0-rc.5"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "keywords": [],
   "author": "",
